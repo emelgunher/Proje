@@ -13,5 +13,24 @@ namespace Proje.Controllers
         {
             return View();
         }
+        public ActionResult Egitim()
+        {
+            return View();
+        }
+        public ActionResult Sehir()
+        {
+            return View();
+        }
+        public ActionResult Miras()
+        {
+            return View();
+        }
+
+        public ActionResult Iletisim()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
