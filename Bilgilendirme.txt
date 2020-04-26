@@ -1,0 +1,16 @@
+
+ BİLGİSAYAR VE BİLİŞİM BİLİMLERİ FAKÜLTESİ
+ BİLGİSAYAR MÜHENDİSLİĞİ
+ WEB TEKNOLOJİLERİ
+ ÖDEV 1
+
+
+
+
+
+
+Yapacağım proje kendimi ve yaşadığım yer olan Trabzon’u anlatan bir web sitesi olacaktır.
+Kendimi tanıttığım kısımlarda kişisel bilgilerim, eğitim hayatım, hobilerim, sıklıkla kullandığım internet siteleri gibi bilgiler olacaktır.
+Trabzon’u tanıttığım kısımda ise Trabzon’un kısa tarihi, içinde barındırdığı tarihi ve doğal güzellikler, şehirdeki insanların yaşam biçimine dair kısa bilgiler yer alacaktır.
+Hazırlayacağım proje de authentication işlemleri yapılabilecektir. Kişi istediği taktirde üye olabilir ve iletişim sayfasından dilek ve şikayetlerini iletebilecektir.
+
