@@ -132,6 +132,10 @@
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Egitim.cshtml" />
+    <Content Include="Views\Home\Sehir.cshtml" />
+    <Content Include="Views\Home\Miras.cshtml" />
+    <Content Include="Views\Home\Iletisim.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
