@@ -3,3 +3,54 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+
+    <div class="row">
+        <div class="section_tittle">
+            <h2><span>Öneri ve </span> Şikayetleriniz </h2>
+        </div>
+    </div>
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { id = "contact-form", action = "" }))
+{
+
+
+    <div class="row">
+        <div class="col-lg-8 mb-4">
+            <form name="sentMessage" id="contactForm" novalidate>
+
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Ad-Soyad:</label>
+                        <input type="text" class="form-control" name="Name" required data-validation-required-message="Lütfen adınızı giriniz.">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>E-Mail:</label>
+                        <input type="email" class="form-control" name="Email" required data-validation-required-message="Lütfen e-mail giriniz.">
+                    </div>
+                </div>
+
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Konu:</label>
+                        <input type="email" class="form-control" name="Subject" required data-validation-required-message="Lütfen e-mail giriniz.">
+                    </div>
+                </div>
+
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Mesaj:</label>
+                        <textarea rows="10" cols="100" class="form-control" name="Message" required data-validation-required-message="Lütfen mesajınızı yazınız." maxlength="999" style="resize:none"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-danger" id="sendMessageButton">Gönder</button>
+            </form>
+        </div>
+
+    </div>
+
+
+}
