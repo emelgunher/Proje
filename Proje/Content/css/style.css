@@ -612,14 +612,13 @@ ul {
 /**************** banner part css start ****************/
 /* line 2, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_banner.scss */
 .banner_part {
-  height: 900px;
-  display: flex;
-  align-items: center;
-  position: relative;
-  background-image: url(../img/banner_overlay.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
 }
 
 /* line 11, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_banner.scss */
