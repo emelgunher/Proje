@@ -96,7 +96,12 @@
     <Content Include="Content\css\owl.carousel.min.css" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\css\themify-icons.css" />
+    <Content Include="Content\img\AtaturkKosku.jpg" />
+    <Content Include="Content\img\AyasofyaMuzesi.jpg" />
     <Content Include="Content\img\Emel.jpg" />
+    <Content Include="Content\img\SeraGölü.jpg" />
+    <Content Include="Content\img\SumelaManastiri.jpg" />
+    <Content Include="Content\img\Uzungol.jpg" />
     <Content Include="Content\img\—Pngtree—facebook icon facebook logo fb_3560489.png" />
     <Content Include="Content\img\—Pngtree—instagram icon logo_3560507.png" />
     <Content Include="Global.asax" />
